@@ -20,9 +20,9 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
     # instala dependências php
 CMD composer update &&\
     # gera arquivo .env
-    # mv .env.example .env &&\
+    mv .env.example .env &&\
     # # inicia nova chave para teste
-    # php artisan key:generate &&\
+    php artisan key:generate &&\
     # inicia servidor do próprio php
     php artisan serve --host 0.0.0.0 
 

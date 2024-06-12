@@ -4,7 +4,7 @@
 
 1. clonar repositório
 2. construir a image: "docker build -t player ."
-3. construir o container: "docker run --rm -p 8000:8000 --name=player player"
+3. rodar o container: "docker run --rm -p 8000:8000 --name=player player"
 4. ctrl click no link que aparecer no terminal
 
 ## form

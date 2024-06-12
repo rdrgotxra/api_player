@@ -13,7 +13,3 @@ Route::get('/test/add', function () {
 Route::get('/test/remove', function () {
     return view('remove_music');
 });
-
-Route::get('/test/play', function () {
-    return view('play_music');
-});

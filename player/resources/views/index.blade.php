@@ -12,7 +12,6 @@
 
     <p>/test/add => interface gráfica para testar api</p>
     <p>/test/remove => interface gráfica para testar api</p>
-    <p>/test/play => interface gráfica para testar api</p>
 
     <h2>api routes</h2>
 

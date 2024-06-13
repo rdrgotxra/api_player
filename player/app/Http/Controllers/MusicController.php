@@ -11,12 +11,12 @@ class MusicController extends Controller
 
     public function get_all()
     {
-        return Music::all();
+        return Music::all('id', 'name', 'album', 'artist', 'year');
     }
 
     public function get_by_id(Request $request)
     {
-        return Music::select()->firstWhere('id', $request->id);
+        return Music::select('id', 'name', 'album', 'artist', 'year')->firstWhere('id', $request->id);
     }
 
     public function get_audio_by_id(Request $request)
